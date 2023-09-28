@@ -1,0 +1,14 @@
+name: LM_Tester
+version: ${project.version}
+main: me.lokka30.LM_Tester.Main
+depend: [ LevelledMobs ]
+api-version: '1.13'
+load: POSTWORLD
+author: stumper66
+description: ${project.description}
+
+commands:
+  lm_tester:
+    description: 'Tests the LevelledMobs plugin'
+    aliases: [ 'lm_tester', 'lmt' ]
+    usage: '/<command>'
